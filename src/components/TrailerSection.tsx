@@ -29,14 +29,12 @@ const TrailerSection = () => {
             <div className="p-6 text-center">
               <div className="flex items-center justify-center gap-2 text-primary mb-4">
                 <Play className="w-5 h-5" />
-                <span className="font-semibold">15-minute educational short film</span>
+                <span className="font-semibold"><a href="https://www.youtube.com/embed/IQks8QYUNz0">15-minute educational short film</a></span>
               </div>
               <p className="text-muted-foreground mb-6">
                 Perfect for Heritage Day and year-round cultural education in Grades 9–11
               </p>
-              <Button variant="hero" size="lg" className="px-8">
-                Pre-Order Now - R50 per learner
-              </Button>
+             
             </div>
           </Card>
         </div>

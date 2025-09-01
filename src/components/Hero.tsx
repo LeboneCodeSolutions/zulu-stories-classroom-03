@@ -9,7 +9,19 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
-        <div className="absolute inset-0 bg-gradient-hero"></div>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+          poster={heroBackground} // fallback image before video loads
+        >
+           <source src="/videos/hero-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-hero">
+
+        </div>
       </div>
       
       {/* Content */}
@@ -21,9 +33,7 @@ const Hero = () => {
           <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
             A 15-minute short film about Zulu traditions of love, paired with ready-to-use assessments for Grades 9–11.
           </p>
-          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-            Pre-Order for Heritage Day
-          </Button>
+          
         </div>
       </div>
 

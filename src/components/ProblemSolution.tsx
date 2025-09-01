@@ -8,7 +8,7 @@ const ProblemSolution = () => {
           {/* Problem Statement */}
           <div>
             <h2 className="text-4xl font-bold mb-8 text-foreground">The Challenge</h2>
-            <Card className="p-8 shadow-warm">
+            <Card className="p-12 shadow-warm">
               <div className="space-y-4 text-lg">
                 <p className="text-muted-foreground">
                   Many learners take Zulu as a subject in high school, but traditional materials often fall short.
@@ -26,7 +26,7 @@ const ProblemSolution = () => {
           {/* Solution */}
           <div>
             <h2 className="text-4xl font-bold mb-8 text-foreground">Our Solution</h2>
-            <Card className="p-8 shadow-cultural bg-gradient-sunset text-white">
+            <Card className="p-12 shadow-cultural bg-gradient-sunset text-white">
               <div className="space-y-4">
                 <h3 className="text-2xl font-semibold mb-4">
                   A 15-minute short film exploring Zulu traditions of love

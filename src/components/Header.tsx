@@ -7,11 +7,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/5b519ef2-f6a5-4e9a-a7db-a7383fd52bfc.png" 
-              alt="Cultured Africa Logo" 
-              className="h-12 w-auto"
-            />
+            <h1>CULTURED AFRICA</h1>
           </div>
 
           {/* Navigation */}
@@ -29,7 +25,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <Button variant="default" className="hidden sm:inline-flex">
-            Pre-Order Now
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScHTVDA4qASTF7ild2SbZRgF5DxeaZR47OOu_iz3tbMaPUoPw/viewform?usp=header">Pre-Order Now</a>
           </Button>
         </div>
       </div>
