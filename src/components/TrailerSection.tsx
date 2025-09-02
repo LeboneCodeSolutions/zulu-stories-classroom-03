@@ -15,7 +15,7 @@ const TrailerSection = () => {
             See how culture comes to life in your classroom.
           </p>
           
-          <Card className="overflow-hidden shadow-cultural bg-gradient-to-br from-background to-muted/50">
+          <Card className="overflow-hidden shadow-cultural bg-gradient-to-br hover:shadow-cultural from-background to-muted/50">
             <div className="relative aspect-video">
               <iframe
                 src="https://www.youtube.com/embed/IQks8QYUNz0"

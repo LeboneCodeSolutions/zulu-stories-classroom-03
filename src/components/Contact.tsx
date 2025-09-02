@@ -18,7 +18,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <Card className="max-w-2xl mx-auto p-8 shadow-warm">
+        <Card className="max-w-2xl mx-auto p-8 shadow-warm hover:shadow-cultural">
           <form className="space-y-6">
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-2">
