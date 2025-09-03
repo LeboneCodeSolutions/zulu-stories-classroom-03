@@ -15,7 +15,7 @@ const CallToAction = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             
             <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLScHTVDA4qASTF7ild2SbZRgF5DxeaZR47OOu_iz3tbMaPUoPw/viewform?usp=header">Pre-Order Now</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7j1WNv393dEcdTyWPtvOYOWsSGsuI3qadnborMr_r0Zvj2Q/viewform?usp=header">Pre-Order Now</a>
             </Button>
           </div>
         </div>

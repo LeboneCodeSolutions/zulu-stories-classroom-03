@@ -5,11 +5,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Logo and Company */}
           <div>
-            <img 
-              src="/lovable-uploads/5b519ef2-f6a5-4e9a-a7db-a7383fd52bfc.png" 
-              alt="Cultured Africa Logo" 
-              className="h-10 w-auto mb-4 brightness-0 invert"
-            />
+            
             <p className="text-gray-300 mb-4">
               Educating learners about South Africa's diverse cultures through engaging stories and digital learning tools.
             </p>
@@ -40,6 +36,7 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Get in Touch</h4>
+            <p className="text-gray-300 mb-2">info@culturedafrica.co.za</p>
             <p className="text-gray-300 mb-2">
               Ready to transform your Zulu language classroom?
             </p>
