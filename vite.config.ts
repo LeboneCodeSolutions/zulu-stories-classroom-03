@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/zulu-stories-classroom-03/", // <-- this MUST be top-level
+  base: "/", // <-- this MUST be top-level
   server: {
     host: "::",
     port: 8080,
